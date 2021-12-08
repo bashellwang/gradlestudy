@@ -16,3 +16,5 @@
 local.properties
 /buildSrc/.gradle
 /buildSrc/build
+/versionplugin/.gradle
+/versionplugin/build
