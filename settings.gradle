@@ -13,3 +13,13 @@ rootProject.name = "study"
 include ':app'
 
 includeBuild 'versionplugin'
+
+enableFeaturePreview('VERSION_CATALOGS')
+
+dependencyResolutionManagement {
+    versionCatalogs {
+        cataloglibs {
+            from(files("libs.versions.toml"))
+        }
+    }
+}

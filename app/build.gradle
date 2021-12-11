@@ -55,4 +55,10 @@ dependencies {
     implementation ComposingBuildMethod.DependLibs.material
     implementation ComposingBuildMethod.DependLibs.constraintlayout
     implementation ComposingBuildMethod.DependLibs.okhttp
+
+    // gradle catalog 引用
+    implementation cataloglibs.retrofit
+    implementation cataloglibs.groovy.core
+    implementation cataloglibs.groovy.json
+    implementation cataloglibs.groovy.nio
 }
